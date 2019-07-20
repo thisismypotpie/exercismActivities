@@ -1,6 +1,10 @@
-extern crate rand;
-pub fn build_proverb(list: &[&str]) -> String {
+pub fn build_proverb(_list: &[&str]) -> String {
     //unimplemented!("build a proverb from this list of items: {:?}", list)
-  let mut index = rand::thread_rng();
-  return "boop"; 
+  let mut proverb = "";
+  for i in 0.._list.len()
+  {
+
+  }
+
+  return proverb.to_string();
 }
